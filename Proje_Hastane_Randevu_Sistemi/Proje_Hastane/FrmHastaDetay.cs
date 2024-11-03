@@ -41,7 +41,7 @@ namespace Proje_Hastane
             conn.Open();
             //Randevu Geçmişi
             DataTable dt = new DataTable();
-            SqlDataAdapter da = new SqlDataAdapter("Select * From Tbl_Randevular where HastaTC="+tc,conn);
+            SqlDataAdapter da = new SqlDataAdapter("Select * From Tbl_Randevular where HastaTC="+tc, conn);
             da.Fill(dt);
             dataGridView1.DataSource = dt;
 
@@ -55,9 +55,8 @@ namespace Proje_Hastane
 
             conn.Close();
 
-           
-            
         }
+
 
         private void cmbBrans_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -110,5 +109,6 @@ namespace Proje_Hastane
             conn.Close();
             MessageBox.Show("Randevu Alındı", "Uyarı", MessageBoxButtons.OK, MessageBoxIcon.Warning);
         }
+
     }
 }

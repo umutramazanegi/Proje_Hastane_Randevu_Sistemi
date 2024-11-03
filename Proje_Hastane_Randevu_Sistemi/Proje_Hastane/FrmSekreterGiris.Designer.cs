@@ -112,6 +112,7 @@ namespace Proje_Hastane
             this.Margin = new System.Windows.Forms.Padding(6);
             this.MaximizeBox = false;
             this.Name = "FrmSekreterGiris";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Sekreter Giriş Paneli";
             this.Load += new System.EventHandler(this.FrmSekreterGiris_Load);
             this.ResumeLayout(false);

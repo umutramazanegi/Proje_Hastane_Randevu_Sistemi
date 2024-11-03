@@ -46,7 +46,7 @@ namespace Proje_Hastane
             // 
             // FrmDuyurular
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(530, 289);
             this.Controls.Add(this.dataGridView1);
@@ -54,6 +54,7 @@ namespace Proje_Hastane
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "FrmDuyurular";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Duyurular";
             this.Load += new System.EventHandler(this.FrmDuyurular_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

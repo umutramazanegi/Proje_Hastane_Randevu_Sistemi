@@ -63,7 +63,7 @@ namespace Proje_Hastane
             this.label6.Location = new System.Drawing.Point(55, 231);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(85, 24);
+            this.label6.Size = new System.Drawing.Size(110, 29);
             this.label6.TabIndex = 30;
             this.label6.Text = "Cinsiyet :";
             // 
@@ -75,7 +75,7 @@ namespace Proje_Hastane
             "Kadın"});
             this.cmbCinsiyet.Location = new System.Drawing.Point(147, 228);
             this.cmbCinsiyet.Name = "cmbCinsiyet";
-            this.cmbCinsiyet.Size = new System.Drawing.Size(174, 32);
+            this.cmbCinsiyet.Size = new System.Drawing.Size(174, 37);
             this.cmbCinsiyet.TabIndex = 6;
             // 
             // mskdTelefon
@@ -85,7 +85,7 @@ namespace Proje_Hastane
             this.mskdTelefon.Margin = new System.Windows.Forms.Padding(4);
             this.mskdTelefon.Mask = "(999) 000-0000";
             this.mskdTelefon.Name = "mskdTelefon";
-            this.mskdTelefon.Size = new System.Drawing.Size(174, 29);
+            this.mskdTelefon.Size = new System.Drawing.Size(174, 34);
             this.mskdTelefon.TabIndex = 4;
             // 
             // label5
@@ -95,7 +95,7 @@ namespace Proje_Hastane
             this.label5.Location = new System.Drawing.Point(82, 195);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(57, 24);
+            this.label5.Size = new System.Drawing.Size(75, 29);
             this.label5.TabIndex = 27;
             this.label5.Text = "Şifre :";
             // 
@@ -105,7 +105,7 @@ namespace Proje_Hastane
             this.txtSifre.Location = new System.Drawing.Point(147, 192);
             this.txtSifre.Margin = new System.Windows.Forms.Padding(4);
             this.txtSifre.Name = "txtSifre";
-            this.txtSifre.Size = new System.Drawing.Size(174, 29);
+            this.txtSifre.Size = new System.Drawing.Size(174, 34);
             this.txtSifre.TabIndex = 5;
             // 
             // label4
@@ -115,7 +115,7 @@ namespace Proje_Hastane
             this.label4.Location = new System.Drawing.Point(25, 158);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(114, 24);
+            this.label4.Size = new System.Drawing.Size(146, 29);
             this.label4.TabIndex = 25;
             this.label4.Text = "Telefon No :";
             // 
@@ -125,7 +125,7 @@ namespace Proje_Hastane
             this.txtSoyad.Location = new System.Drawing.Point(147, 81);
             this.txtSoyad.Margin = new System.Windows.Forms.Padding(4);
             this.txtSoyad.Name = "txtSoyad";
-            this.txtSoyad.Size = new System.Drawing.Size(174, 29);
+            this.txtSoyad.Size = new System.Drawing.Size(174, 34);
             this.txtSoyad.TabIndex = 2;
             // 
             // label1
@@ -135,7 +135,7 @@ namespace Proje_Hastane
             this.label1.Location = new System.Drawing.Point(95, 47);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(44, 24);
+            this.label1.Size = new System.Drawing.Size(54, 29);
             this.label1.TabIndex = 23;
             this.label1.Text = "Ad :";
             // 
@@ -145,7 +145,7 @@ namespace Proje_Hastane
             this.txtAd.Location = new System.Drawing.Point(147, 44);
             this.txtAd.Margin = new System.Windows.Forms.Padding(4);
             this.txtAd.Name = "txtAd";
-            this.txtAd.Size = new System.Drawing.Size(174, 29);
+            this.txtAd.Size = new System.Drawing.Size(174, 34);
             this.txtAd.TabIndex = 1;
             // 
             // mskdTc
@@ -155,7 +155,7 @@ namespace Proje_Hastane
             this.mskdTc.Margin = new System.Windows.Forms.Padding(4);
             this.mskdTc.Mask = "00000000000";
             this.mskdTc.Name = "mskdTc";
-            this.mskdTc.Size = new System.Drawing.Size(174, 29);
+            this.mskdTc.Size = new System.Drawing.Size(174, 34);
             this.mskdTc.TabIndex = 3;
             this.mskdTc.ValidatingType = typeof(int);
             // 
@@ -166,7 +166,7 @@ namespace Proje_Hastane
             this.label3.Location = new System.Drawing.Point(66, 84);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(73, 24);
+            this.label3.Size = new System.Drawing.Size(93, 29);
             this.label3.TabIndex = 20;
             this.label3.Text = "Soyad :";
             // 
@@ -177,14 +177,14 @@ namespace Proje_Hastane
             this.label2.Location = new System.Drawing.Point(10, 121);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(129, 24);
+            this.label2.Size = new System.Drawing.Size(168, 29);
             this.label2.TabIndex = 19;
             this.label2.Text = "TC Kimlik No :";
             // 
             // FrmBilgiDuzenle
             // 
             this.AcceptButton = this.btnBilgiGuncelle;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.CadetBlue;
             this.ClientSize = new System.Drawing.Size(358, 331);
@@ -206,6 +206,7 @@ namespace Proje_Hastane
             this.Margin = new System.Windows.Forms.Padding(6);
             this.MaximizeBox = false;
             this.Name = "FrmBilgiDuzenle";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Bilgi Güncelleme Ekranı";
             this.Load += new System.EventHandler(this.FrmBilgiDuzenle_Load);
             this.ResumeLayout(false);

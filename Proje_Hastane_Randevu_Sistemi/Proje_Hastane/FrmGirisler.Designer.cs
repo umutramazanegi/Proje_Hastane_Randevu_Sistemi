@@ -90,7 +90,7 @@ namespace Proje_Hastane
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.label2.BackColor = System.Drawing.Color.CadetBlue;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label2.Location = new System.Drawing.Point(245, 321);
             this.label2.Name = "label2";
@@ -101,7 +101,7 @@ namespace Proje_Hastane
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.label3.BackColor = System.Drawing.Color.CadetBlue;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label3.ForeColor = System.Drawing.SystemColors.ControlText;
             this.label3.Location = new System.Drawing.Point(451, 321);
@@ -161,7 +161,7 @@ namespace Proje_Hastane
             this.MaximizeBox = false;
             this.Name = "FrmGirisler";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Lifeline Hospital Giriş";
+            this.Text = "Nova Medikal Hospital Giriş";
             this.Load += new System.EventHandler(this.FrmGirisler_Load);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

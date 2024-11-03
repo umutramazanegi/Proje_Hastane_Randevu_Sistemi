@@ -30,7 +30,7 @@ namespace Proje_Hastane
         {
             SqlConnection conn = new SqlConnection(bgl.baglanti);
             conn.Open();
-            SqlCommand komut = new SqlCommand("Select * From Tbl_Hastalar Where HastaTC=@p1 and HastaSifre=@p2", conn);
+            SqlCommand komut = new SqlCommand("Select * From Tbl_Hastalar Where HastaTC=@p1 and HastaSifresi=@p2", conn);
             komut.Parameters.AddWithValue("@p1", mskdTc.Text);
             komut.Parameters.AddWithValue("@p2", txtSifre.Text);
             SqlDataReader dr = komut.ExecuteReader();

@@ -88,7 +88,7 @@ namespace Proje_Hastane
             // 
             this.txtBrans.Location = new System.Drawing.Point(109, 47);
             this.txtBrans.Name = "txtBrans";
-            this.txtBrans.Size = new System.Drawing.Size(123, 29);
+            this.txtBrans.Size = new System.Drawing.Size(123, 34);
             this.txtBrans.TabIndex = 31;
             // 
             // label2
@@ -96,7 +96,7 @@ namespace Proje_Hastane
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(6, 50);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(97, 24);
+            this.label2.Size = new System.Drawing.Size(122, 29);
             this.label2.TabIndex = 26;
             this.label2.Text = "Branş Ad :";
             // 
@@ -104,7 +104,7 @@ namespace Proje_Hastane
             // 
             this.txtid.Location = new System.Drawing.Point(109, 12);
             this.txtid.Name = "txtid";
-            this.txtid.Size = new System.Drawing.Size(123, 29);
+            this.txtid.Size = new System.Drawing.Size(123, 34);
             this.txtid.TabIndex = 24;
             // 
             // label1
@@ -112,13 +112,13 @@ namespace Proje_Hastane
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(13, 15);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(90, 24);
+            this.label1.Size = new System.Drawing.Size(116, 29);
             this.label1.TabIndex = 23;
             this.label1.Text = "Branş ID :";
             // 
             // FrmBrans
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.CadetBlue;
@@ -136,6 +136,7 @@ namespace Proje_Hastane
             this.Margin = new System.Windows.Forms.Padding(6);
             this.MaximizeBox = false;
             this.Name = "FrmBrans";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Branş Paneli";
             this.Load += new System.EventHandler(this.FrmBrans_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

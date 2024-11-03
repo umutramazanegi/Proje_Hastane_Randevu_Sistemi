@@ -112,6 +112,7 @@ namespace Proje_Hastane
             this.Margin = new System.Windows.Forms.Padding(6);
             this.MaximizeBox = false;
             this.Name = "FrmDoktorGiris";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Doktor Giriş Paneli";
             this.Load += new System.EventHandler(this.FrmDoktorGiris_Load);
             this.ResumeLayout(false);

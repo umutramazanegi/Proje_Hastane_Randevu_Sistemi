@@ -125,6 +125,7 @@ namespace Proje_Hastane
             this.Margin = new System.Windows.Forms.Padding(6);
             this.MaximizeBox = false;
             this.Name = "FrmHastaGiris";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Hasta Giriş Paneli";
             this.Load += new System.EventHandler(this.FrmHastaGiris_Load);
             this.ResumeLayout(false);
